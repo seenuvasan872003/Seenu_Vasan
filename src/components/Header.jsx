@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaMoon, FaSun, FaBars, FaTimes, FaFilePdf } from 'react-icons/fa';
-import cvPdf from '../assets/cv.pdf';
+import cvPdf from '../assets/cv/seenuvasan.pdf';
 
 const Header = ({ darkMode, setDarkMode }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
