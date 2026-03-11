@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, FaGitAlt, FaGithub, FaLaptopCode, FaServer, FaDatabase, FaCode, FaTools, FaLink } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaGithub, FaLaptopCode, FaServer, FaDatabase, FaCode, FaTools, FaLink } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiPostgresql, SiTailwindcss, SiBootstrap, SiPostman } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
@@ -42,7 +42,7 @@ const skillCategories = [
         icon: <FaCode />,
         items: [
             { name: 'JavaScript', icon: <FaJs className="text-yellow-400" /> },
-            { name: 'Java', icon: <FaJava className="text-red-500" /> }
+            { name: 'Python', icon: <FaPython className="text-red-500" /> }
         ]
     },
     {

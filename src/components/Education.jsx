@@ -18,17 +18,19 @@ const Education = () => {
                         <h3 className="font-bold text-xl">B.E Electronics and Communication Engineering</h3>
                         <p className="text-gray-600 dark:text-gray-400">IFET College of Engineering</p>
                         <span className="bg-[#5ce1e6] border-[2px] border-black px-3 py-1 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-                            Villupuram
+                            2021 - 2025
                         </span>
+                        <p className="text-sm mt-3 text-gray-500 flex items-center gap-2"><FaMapMarkerAlt className="text-red-500 text-lg" />Villupuram</p>
 
                         {/* School */}
-                        <h3 className="font-bold text-xl mt-6">12th & 10th</h3>
+                        <h3 className="font-bold text-xl mt-6">HSC & SSLC</h3>
                         <p className="text-gray-600 dark:text-gray-400">
                             Gandhi Memorial Higher Secondary School
                         </p>
                         <span className="bg-yellow-300 border-[2px] border-black px-3 py-1 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-                            Villupuram
+                            2019-2021
                         </span>
+                        <p className="text-sm mt-3 text-gray-500 flex items-center gap-2"><FaMapMarkerAlt className="text-red-500 text-lg" />Villupuram</p>
 
                         {/* Course */}
                         <h3 className="font-bold text-xl mt-6">Full Stack Web Development Course</h3>
@@ -36,12 +38,13 @@ const Education = () => {
                             Code 99 IT Academy
                         </p>
                         <span className="bg-pink-300 border-[2px] border-black px-3 py-1 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-                            Chennai
+                            2025
                         </span>
+                        <p className="text-sm mt-3 text-gray-500 flex items-center gap-2"><FaMapMarkerAlt className="text-red-500 text-lg" />Chennai</p>
 
-                        <div className="flex items-center gap-2 mt-6 text-sm font-bold text-gray-700 dark:text-gray-300">
+                        {/* <div className="flex items-center gap-2 mt-6 text-sm font-bold text-gray-700 dark:text-gray-300">
                             <FaMapMarkerAlt className="text-red-500 text-lg" /> Tamil Nadu, India
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
@@ -60,7 +63,7 @@ const Education = () => {
                         <span className="bg-[#5ce1e6] border-[2px] border-black px-3 py-1 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                             Jan 2025 – Jun 2025
                         </span>
-                        <p className="text-sm mt-1 text-gray-500">Thanjavur</p>
+                        <p className="text-sm mt-3 text-gray-500 flex items-center gap-2"><FaMapMarkerAlt className="text-red-500 text-lg" />Thanjavur</p>
 
                         {/* Novitech */}
                         <h3 className="font-bold text-xl mt-6">Full Stack Developer Intern (Online)</h3>
@@ -68,7 +71,7 @@ const Education = () => {
                         <span className="bg-yellow-300 border-[2px] border-black px-3 py-1 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                             March 2024 – May 2024
                         </span>
-                        <p className="text-sm mt-1 text-gray-500">Online</p>
+                        <p className="text-sm mt-3 text-gray-500">Online</p>
 
                         {/* Nexinfo */}
                         <h3 className="font-bold text-xl mt-6">Web Development Intern (Online)</h3>
@@ -76,11 +79,11 @@ const Education = () => {
                         <span className="bg-pink-300 border-[2px] border-black px-3 py-1 text-sm font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                             June 2024 – July 2024
                         </span>
-                        <p className="text-sm mt-1 text-gray-500">Online</p>
+                        <p className="text-sm mt-3 text-gray-500">Online</p>
 
-                        <div className="flex items-center gap-2 mt-6 text-sm font-bold text-gray-700 dark:text-gray-300">
+                        {/* <div className="flex items-center gap-2 mt-6 text-sm font-bold text-gray-700 dark:text-gray-300">
                             <FaMapMarkerAlt className="text-red-500 text-lg" /> India
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

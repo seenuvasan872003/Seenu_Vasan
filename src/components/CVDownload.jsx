@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaDownload, FaFilePdf } from 'react-icons/fa';
+import cvPdf from '../assets/cv/seenuvasan.pdf';
 
 const CVDownload = () => {
     return (
@@ -13,8 +14,10 @@ const CVDownload = () => {
                 Get a copy of my resume to see my full work history and skills.
             </p>
             <a
-                href="/cv.pdf"
-                download
+                href={cvPdf}
+                download="seenuvasan.pdf"
+                target="_blank"
+                rel="noreferrer"
                 className="bg-white dark:bg-gray-800 text-black dark:text-white border-[3px] border-black px-6 py-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all font-bold flex items-center gap-2"
             >
                 <FaDownload /> Download Now
