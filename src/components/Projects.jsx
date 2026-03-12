@@ -23,8 +23,8 @@ const projects = [
         description: 'Developed a weather application using REST API to fetch real-time weather data and display it in a clean user interface.',
         tech: ['JavaScript', 'API', 'HTML', 'CSS'],
         color: 'bg-pink-300',
-        github: '',
-        live: ''
+        github: 'https://github.com/seenuvasan872003/weather_app.git',
+        live: 'https://weather-app-eight-theta-47.vercel.app/'
     },
     {
         title: 'Employee Management System',
