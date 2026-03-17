@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import CVDownload from './components/CVDownload';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import ContactPopup from './components/ContactPopup';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,6 +26,7 @@ function App() {
           <Contact />
         </main>
       </div>
+      <ContactPopup />
     </div>
   );
 }
